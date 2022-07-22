@@ -1,0 +1,62 @@
+/**
+* @name Ash's Theme
+* @version 1.1
+* @description Ash's Theme Changelog -added custom emojis
+* @author Ash_💖#0001
+* @invite ThHwEPPc
+Also, like all of this is really easy to customize at where it says root */
+@import url("https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css");
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css');
+@import url('https://fonts.googleapis.com/css2?family=Chewy');
+
+/*Custom Emojis, change the end of
+the URL to any of the following :
+  		→ Apple
+		→ Facebook
+		→ Google
+		→ JoyPixels
+		→ Microsoft
+		→ OpenMoji
+		→ Samsung
+		→ WhatsApp
+        THE DEFAULT ONE IS Apple
+                                                                                     REPLACE APPLE       
+        */                                                                      
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css);
+/*To go back to regular emojis, delete the script above this message and save.
+*/
+
+:root {
+--background-image: url('https://images.hdqwalls.com/wallpapers/spiderman-miles-lost-in-space-4k-0f.jpg');
+--background-image-blur: 1px;
+--background-image-size: cover;
+--background-image-position: center;
+--popout-modal-image: url('https://i.imgur.com/kYW2H5C.jpg');
+--popout-modal-blur: 100px;
+--popout-modal-size: cover;
+--popout-modal-position: center;
+--home-button-image: url('https://global-uploads.webflow.com/5e157548d6f7910beea4e2d6/604150249dd5c6c6dad513a4_grbirDygHnFrmvJI3JdoogDOaenIiZyJk60OEXEqwvhWWAgWtstyEq0dZVCC4hXrErHPhQleQ-bWtW7t3gr5vVyWJAbeyeSVJd84nENcuOYJ4z4a2Q6BXo5IpZNP7ddBdNMpTfx5.png');
+--home-button-size: cover;
+--home-button-position: left;
+--serverlist-brightness: 0.7;
+--left-brightness: 0.6;
+--middle-brightness: 0.4;
+--right-brightness: 0;
+--popout-modal-brightness: 0.75;
+--gradient-primary: 103,58,183;
+--gradient-secondary: 63,81,181;
+--gradient-direction: 320deg;
+--tint-colour: 255,41,238;
+--tint-brightness: 0;
+--window-padding: 16px;
+--window-roundness: 10px;
+--scrollbar-colour: #FFFFFFFF;
+--link-colour: #00b0f4;
+--show-gift-gif-buttons: no-repeat;
+--font: 'Chewy';
+--update-notice-1: none;
+--columns: 2;
+--guildsize: 35;
+--guildgap: 1;
+--aligndms: 0;
+}
